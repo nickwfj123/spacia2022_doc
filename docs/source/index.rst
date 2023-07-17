@@ -1,6 +1,15 @@
 Spacia: Inferring Cell-cell Interaction from Spatial Transcriptomics Data
 ===================================
 
+.. toctree::
+   :maxdepth: 1
+   :caption: Resources
+   :hidden:
+
+   test1
+   test2
+   test3
+
 Multicellular organisms heavily rely on cell-cell interactions to effectively coordinate and regulate various biological processes, ensuring the normal functioning of the organism. Spacia models and evaluates cell-cell interactions from spatial transcriptomic data (SRT). This model uses cell-cell proximity as a constraint and prioritizes cell-cell interactions that cause a downstream change in the cells. Spacia employs a Bayesian multi-instance learning (MIL) framework to assess intercellular communication from between cells and their neighbors.
 
 Graphical abstract
@@ -88,12 +97,3 @@ Yunguan Wang, yunguan.wang@utsouthestern.edu
 
 Tao Wang, tao.wang@utsouthestern.edu
 
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Resources
-   :hidden:
-
-   test1
-   test2
-   test3
