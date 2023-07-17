@@ -94,6 +94,6 @@ Tao Wang, tao.wang@utsouthestern.edu
    :caption: Resources
    :hidden:
 
-   intro
-   All about strings <strings>
-   datatypes
+   test1
+   test2
+   test3
