@@ -87,3 +87,10 @@ If you have any suggestions/ideas for Spacia or are having issues trying to use 
 Yunguan Wang, yunguan[dot]wang@utsouthestern[dot]edu
 
 Tao Wang, tao[dot]wang@utsouthestern[dot]edu
+
+
+.. toctree::
+
+   intro
+   All about strings <strings>
+   datatypes
