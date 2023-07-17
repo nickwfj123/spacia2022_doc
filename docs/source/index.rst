@@ -84,12 +84,15 @@ Contact Us
 ~~~~~~~~~~
 If you have any suggestions/ideas for Spacia or are having issues trying to use it, please don't hesitate to reach out to us.
 
-Yunguan Wang, yunguan[dot]wang@utsouthestern[dot]edu
+Yunguan Wang, yunguan.wang@utsouthestern.edu
 
-Tao Wang, tao[dot]wang@utsouthestern[dot]edu
+Tao Wang, tao.wang@utsouthestern.edu
 
 
 .. toctree::
+   :maxdepth: 1
+   :caption: Resources
+   :hidden:
 
    intro
    All about strings <strings>
