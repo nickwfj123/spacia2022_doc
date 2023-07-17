@@ -9,6 +9,7 @@ Insert Fig2b high res png file
 
 Installation
 --------
+
 Dependency
 ~~~~~~~~~~
 R: ``R>=4.0``, ``coda``, ``ggmcmc``, ``rcpp``, ``RcppArmadillo``.
@@ -36,6 +37,7 @@ The total installation time is around 10 mintunes. If error occuors, please upgr
 Test installation
 --------
 Todo
+
 
 Usage
 --------
