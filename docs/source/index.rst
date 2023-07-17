@@ -2,7 +2,7 @@ Spacia: Inferring Cell-cell Interaction from Spatial Transcriptomics Data
 ===================================
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: Resources
    :hidden:
 
