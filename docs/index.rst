@@ -27,7 +27,7 @@ Insert Fig2b high res png file
 
 
 Contact Us
-~~~~~~~~~~
+--------
 If you have any suggestions/ideas for Spacia or are having issues trying to use it, please don't hesitate to reach out to us.
 
    * Dr. Yunguan Wang, yunguan.wang@utsouthestern.edu
