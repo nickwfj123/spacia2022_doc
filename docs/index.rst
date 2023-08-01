@@ -8,6 +8,7 @@ Multicellular organisms heavily rely on cell-cell interactions to effectively co
    installation
    usage
    resources
+   api
 
 Graphical abstract
 --------
