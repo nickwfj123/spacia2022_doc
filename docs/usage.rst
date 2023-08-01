@@ -15,7 +15,7 @@ Definition of terms used in Spacia
 
 **Neighborhood**: A regions centering around each **Receivers** that contains **Senders** of interest.
 
-Quick start
+Quick Start
 ------
 Once the input data have been processed into the supported format, the full Spacia workflow can be run by calling the ``Spacia.py`` script. It evaluates interactions within the context of cell neighborhoods, where the ‘**receiver**’ cells are the cells of interest, and the cells from the neighborhood are referred to as "**sender**" cells. The **interactant** expressed in the receiver cells, through which the interactions are to be studied, are referred to as "**Response**", while the **interactant** expressed in the sender cells that potentially influence the responder genes are called signal “**Signal**".
 
@@ -32,7 +32,7 @@ Here, ``counts.txt`` is a cell-by-gene matrix in TX format. We expect the data t
 ``-rf`` and ``-sf`` refer to **Responder** and **Sending** features. Here they are in forms of single genes. Spacia can also take pathways in the format of a list of genes as inputting features.
 
 
-Processing **interactant** expression
+Processing Interactant Expression
 ------
 
 **Spacia employs several different workflows to calculate interactant expression in cells, aiming to handle use cases of disfferent purposes. The behavior is controled largely by the** ``--receiver_features`` **and** ``--sender_features`` **paramerters, and a few others by a lesser extent.**
@@ -65,7 +65,7 @@ Processing **interactant** expression
 For the see the output of ``python spacia.py -h`` for details.
 
 
-For advanced users
+For Advanced Users
 ------
 For users who want to directly access the core of spacia and perform more flexible analyses, we provide an example R scipt that showcases the few key steps. But please regard the codes in this R script as examples and remember to customize everything according to your needs/datasets. Our analysis codes of the prostate Merscope data (Fig. 4) are derived based on this R script. But the major pre-processing, inference, and post-processing steps shown in this R script are all consistent with those in our main spacia API.
 
