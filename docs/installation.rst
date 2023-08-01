@@ -31,6 +31,6 @@ The total installation time is around 10 mintunes. If error occuors, please upgr
 
 **Note:**
   
-Test installation
+Test Installation
 --------
 Todo
