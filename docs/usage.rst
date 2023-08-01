@@ -1,7 +1,7 @@
 Usage
 ======
 
-Definition of terms used in Spacia
+Definition of Terms Used in Spacia
 ------
 **Interaction**: Relationship between a pair **interactants** that potentially leads to downstream signalling events in cells. The **interactant** can be a gene or a geneset.
 
