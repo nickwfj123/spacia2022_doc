@@ -21,8 +21,7 @@ Insert Fig2b high res png file
    :caption: Resources
    :hidden:
 
-   Dr. Yunguan Wang <yunguan.wang@utsouthestern.edu>
-   Dr. Tao Wang Lab<https://qbrc.swmed.edu/labs/wanglab/aboutpi.php>
+   Tao Wang Lab<https://qbrc.swmed.edu/labs/wanglab/aboutpi.php>
    DBAI <https://dbai.biohpc.swmed.edu/>
    GitHub <hhttps://github.com/yunguan-wang/Spacia/>
 
@@ -31,12 +30,12 @@ Contact Us
 ~~~~~~~~~~
 If you have any suggestions/ideas for Spacia or are having issues trying to use it, please don't hesitate to reach out to us.
 
-Dr. Yunguan Wang, yunguan.wang@utsouthestern.edu
-Dr. Tao Wang, tao.wang@utsouthestern.edu
+   * Dr. Yunguan Wang, yunguan.wang@utsouthestern.edu
+   * Dr. Tao Wang, tao.wang@utsouthestern.edu
 
 For more resources on our labs, collaborators, and related projects, please visit the following:
 
-   * `Dr. Tao Wang Lab <https://qbrc.swmed.edu/labs/wanglab/aboutpi.php>`_
+   * `Tao Wang Lab <https://qbrc.swmed.edu/labs/wanglab/aboutpi.php>`_
    * `Database for Actionable Immunology (DBAI) for more computational immunology-related tools <https://dbai.biohpc.swmed.edu/>`_
 
 For project development and newest updates, consider visiting the following:
