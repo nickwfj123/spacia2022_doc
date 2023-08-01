@@ -1,12 +1,15 @@
 Installation
 ======
 
-Install Dependencies
+Build Environment
 --------
-R: ``R>=4.0``, ``coda``, ``ggmcmc``, ``rcpp``, ``RcppArmadillo``.
 
-Python: ``R>=3.8``, ``matplotlib``, ``pandas``, ``scipy``, ``scikit-learn``. We strongly recommend using conda to manage the installation of all dependencies. To do this, simply run:
+**Required Dependencies:**
 
+- R: ``R>=4.0``, ``coda``, ``ggmcmc``, ``rcpp``, ``RcppArmadillo``.
+- Python: ``R>=3.8``, ``matplotlib``, ``pandas``, ``scipy``, ``scikit-learn``. 
+
+We strongly recommend using conda to manage the installation of all dependencies. To do this, simply run:
 ::
 
   conda create --name spacia
