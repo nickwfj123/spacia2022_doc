@@ -6,9 +6,15 @@ Multicellular organisms heavily rely on cell-cell interactions to effectively co
 xxxx
 
 .. toctree::
-
+   :caption: Installation
    installation
+
+.. toctree::
+   :caption: Usage
    usage
+
+.. toctree::
+   :caption: Resouces
    resources
 
 Graphical abstract
