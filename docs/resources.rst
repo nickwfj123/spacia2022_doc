@@ -1,5 +1,5 @@
 resources
-====
+======
 
 .. autosummary::
    :toctree: generated
