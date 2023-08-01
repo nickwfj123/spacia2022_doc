@@ -10,7 +10,6 @@ xxxx
    installation
    usage
    resources
-   api
 
 Graphical abstract
 --------
