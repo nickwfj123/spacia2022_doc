@@ -1,0 +1,44 @@
+{% set name = "cytomulate" %}
+{% set version = "0.2.0" %}
+
+package:
+  name: cytomulate
+  version: {{ version }}
+
+source:
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 499008618b335573641f520bf097db5e7d40899bda499952efdad9c0ae7cb9b4
+
+build:
+  noarch: python
+  number: 0
+  script: python -m pip install --no-deps --ignore-installed .
+
+requirements:
+  host:
+    - python
+    - pip
+  run:
+    - python
+    - numpy
+    - scipy
+    - scikit-learn
+    - networkx
+    - matplotlib
+    - tqdm
+
+test:
+  imports:
+    - cytomulate
+
+about:
+  home: https://github.com/kevin931/cytomulate
+  license: MIT
+  summary: 'Accurate and Efficient Simulation of CyTOF data'
+  description: |
+    Cytomulate is a package for simulating datasets for CyTOF.
+    With Emulation Mode and Creation Mode, you can generate any
+    dataset for your needs!
+  dev_url: https://github.com/kevin931/cytomulate
+  doc_url: https://cytomulate.readthedocs.io/en/dev/
+  doc_source_url: https://github.com/kevin931/cytomulate/tree/dev/docs
