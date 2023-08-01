@@ -1,5 +1,3 @@
-.. include:: ../README.rst
-
 Spacia: Inferring Cell-cell Interaction from Spatial Transcriptomics Data
 ===================================
 
