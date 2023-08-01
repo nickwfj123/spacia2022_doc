@@ -19,7 +19,7 @@ How Spacia defines interactant
 Todo
 
 How to use a custom list of cells as receiver or sender
-~~~~~~~~~~
+------
 Todo
 
 List of Parameters
