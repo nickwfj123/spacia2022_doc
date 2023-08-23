@@ -6,7 +6,7 @@ Build Environment
 
 **Required Dependencies:**
 
-- R: ``R>=4.0``, ``coda``, ``ggmcmc``, ``rcpp``, ``RcppArmadillo``.
+- R: ``R>=4.0``, ``coda``, ``ggmcmc``, ``rcpp``, ``RcppArmadillo``, ``rjson``.
 - Python: ``R>=3.8``, ``matplotlib``, ``pandas``, ``scipy``, ``scikit-learn``. 
 
 We strongly recommend using conda to manage the installation of all dependencies. To do this, simply run:
@@ -29,8 +29,19 @@ Download this repo:
 
 The total installation time is around 10 mintunes. If error occuors, please upgrade pip and try again.
 
-**Note:**
+**Note:**  If you are on a macOS and do not have the Xcode Command Line Tools installed, please do so by running ``xcode-select --install`` in terminal.
   
 Test Installation
 --------
-Todo
+Test Spacia using a simple test script by: 
+``python test.py``
+
+The output should look like this:
+::
+
+  Testing Spacia with a single gene as response feature and simple aggregation
+  Test Succeeded.
+  Testing Spacia with multiple genes as response feature and no agg mode
+  Test Succeeded.
+  Testing Spacia with multiple genes as response feature and pca agg mode
+  Test Succeeded.
