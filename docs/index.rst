@@ -31,8 +31,9 @@ Contact Us
 --------
 If you have any suggestions/ideas for Spacia or are having issues trying to use it, please don't hesitate to reach out to us.
 
+   * Noah Chang, wooyong.chang@utsouthwestern.edu
+   * James Zhu, james.zhu@utsouthwestern.edu
    * Dr. Yunguan Wang, yunguan.wang@utsouthestern.edu
-   * Dr. Tao Wang, tao.wang@utsouthestern.edu
 
 For more resources on our labs, collaborators, and related projects, please visit the following:
 
