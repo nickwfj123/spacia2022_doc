@@ -26,12 +26,15 @@ author = "Dr. Yunguan Wang"
 # -- General configuration
 
 extensions = [
-    "sphinx.ext.duration",
-    "sphinx.ext.doctest",
+    "sphinx_rtd_theme",
     "sphinx.ext.autodoc",
-    "sphinx.ext.autosummary",
-    "sphinx.ext.intersphinx",
+    "sphinx.ext.viewcode",
+    "sphinx.ext.napoleon",
+    "sphinxcontrib.autoprogram",
+    "sphinx_autodoc_typehints",
+    "sphinx_git"
 ]
+
 
 intersphinx_mapping = {
     "rtd": ("https://docs.readthedocs.io/en/stable/", None),
