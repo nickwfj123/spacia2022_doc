@@ -67,3 +67,13 @@ html_theme_path = ["_themes", ]
 html_static_path = ["_static"]
 
 html_logo = "../assets/spacia_logo.png"
+
+html_theme_options = {
+    'collapse_navigation': False,
+    'sticky_navigation': True,
+    'navigation_depth': 4,
+    'includehidden': True,
+    'titles_only': True,
+    'logo_only': True,
+    'display_version': False
+}
