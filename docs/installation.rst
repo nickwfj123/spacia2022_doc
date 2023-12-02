@@ -42,22 +42,11 @@ Then, download this repo.
 The total installation time is around 10 minutes. If an error occurs, please upgrade pip and try again.
 
 Note: If you are on a macOS and do not have the Xcode Command Line Tools installed, please do so by running ``xcode-select --install`` in terminal.
-
-Download Repo
---------
-Download this repo:
-
-::
-
-  git clone [repo_path]
-
-The total installation time is around 10 mintunes. If error occuors, please upgrade pip and try again.
-
-**Note:**  If you are on a macOS and do not have the Xcode Command Line Tools installed, please do so by running ``xcode-select --install`` in terminal.
   
 Test Installation
 --------
 Test Spacia using a simple test script by: 
+
 ``python test.py``
 
 The output should look like this:
@@ -69,3 +58,15 @@ The output should look like this:
   Test Succeeded.
   Testing Spacia with multiple genes as response feature and pca agg mode
   Test Succeeded.
+
+Note: You may get some warning messages from the Rcpp package, but this does not affect the performance of the software.
+
+**About the test data**
+
+The test data is a randomly generated dataset for the purpose of validating the installation only.
+
+The test itself contains ~2,500 cells and it should finish in 5 minutes.
+
+The purpose of the test is only to validate the installation, and the there is no interpretation associated with the test results.
+
+We have also included the simulation dataset used in our manuscript in ``/data/simulation``.
