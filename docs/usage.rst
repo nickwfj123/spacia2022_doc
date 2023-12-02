@@ -62,12 +62,18 @@ Processing Interactant Expression
 
 ``--output_path``: Output folder for spacia.
 
-For the see the output of ``python spacia.py -h`` for details.
+**Output file format**
+``Spacia.py`` will output intermediated results from the core R model saved in each [Response_named] folders, as well as a set of files containing a high level summary of the final results. These files are ``B_and_FDR.csv``, ``Pathway_betas.csv``, and ``Interactions.csv``.
 
+``B_and_FDR.csv`` contains the **b** values of each response gene/pathway (first column) and the associated significance information.
+
+``Pathway_betas.csv`` contains the **beta** values representing the interaction between each response gene/pathway (first column) and signal gene/pathway (second columns).
+
+``Interactions.csv`` contains the primary instance scores of all receivers in each receiver-sender cell pair (second and third column) for each response-signal interaction (first column).
 
 For Advanced Users
 ------
-For users who want to directly access the core of spacia and perform more flexible analyses, we provide an example R scipt that showcases the few key steps. But please regard the codes in this R script as examples and remember to customize everything according to your needs/datasets. Our analysis codes of the prostate Merscope data (Fig. 4) are derived based on this R script. But the major pre-processing, inference, and post-processing steps shown in this R script are all consistent with those in our main spacia API.
+For users who want to directly access the core of spacia and perform more flexible analyses, we provide an example R script that showcases the few key steps. But please regard the codes in this R script as examples and remember to customize everything according to your needs/datasets. Our analysis codes of the prostate Merscope data (Fig. 4) are derived based on this R script. But the major pre-processing, inference, and post-processing steps shown in this R script are all consistent with those in our main spacia API.
 
 ::
 
