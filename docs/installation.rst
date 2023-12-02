@@ -9,14 +9,14 @@ Build Environment
 - R: ``R>=4.0``
 - Python: ``R>=3.8``
 
-***R Packages:***
+**R Packages:**
 - ``code==0.19-4``
 - ``ggmcmc==1.5.1.1``
 - ``Rcpp==1.0.9``
 - ``RcppArmadillo==0.11.2.3.1``
 - ``rjson==0.2.21``
 
-***Python Packages***
+**Python Packages**
 - ``matplotlib==3.7.2``
 - ``pandas==2.0.3``
 - ``scipy==1.10.1``
