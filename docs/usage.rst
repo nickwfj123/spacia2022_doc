@@ -63,7 +63,8 @@ Processing Interactant Expression
 ``--output_path``: Output folder for spacia.
 
 **Output file format**
-``Spacia.py`` will output intermediated results from the core R model saved in each [Response_named] folders, as well as a set of files containing a high level summary of the final results. These files are ``B_and_FDR.csv``, ``Pathway_betas.csv``, and ``Interactions.csv``.
+
+The primary output of Spacia is a set of files containing a high level summary of the final results. These files are ``B_and_FDR.csv``, ``Pathway_betas.csv``, and ``Interactions.csv``.
 
 ``B_and_FDR.csv`` contains the **b** values of each response gene/pathway (first column) and the associated significance information.
 
@@ -73,16 +74,28 @@ Processing Interactant Expression
 
 For Advanced Users
 ------
-For users who want to directly access the core of spacia and perform more flexible analyses, we provide an example R script that showcases the few key steps. But please regard the codes in this R script as examples and remember to customize everything according to your needs/datasets. Our analysis codes of the prostate Merscope data (Fig. 4) are derived based on this R script. But the major pre-processing, inference, and post-processing steps shown in this R script are all consistent with those in our main spacia API.
+(1) 
+Spacia also saves the intermediate results in each ``Response_name`` folder, which are summarized into the primary output. These files include:
+
+Diagnostic plots in pdf formats reporting the behavior of each MCMC chains.
+
+Values of **b** and **beta** as calculated during each MCMC iteration/chain. ``[Response_name]_[b/beta].txt``
+
+Primary instance scores between each receiver and sender, in long format. To decode this, please refer to the model_input/metadata.txt file, and flatten the Sender_cells column. You can do this in Pandas using the str.split and explod functions.
+
+(2) 
+For users who want to directly access the core of spacia and perform more flexible analyses (we strongly encourage you to do so) , we provide an example R script that showcases the few key steps. But please regard the codes in this R script as examples and remember to customize everything according to your needs/datasets. This script showcases our suggested pipeline of data processing, and the codes should be self-explanatory enough. Our analysis codes of the prostate Merscope data (Fig. 4) are derived based on this R script. But the major pre-processing, inference, and post-processing steps shown in this R script are overall consistent with those in our main spacia API. We expect different SRT technologies to generate data in different formats and the data are also of different qualities. We suggest the users to perform data pre-processing and thorough quality filtering on their own, and massage the filtered data in the right format to feed into the core of spacia, for maximum performance. We also provide example data and parameters under ``test/input/rscript_test_data`` to test the R script. Note that the data and parameters used in the example below is only intended for a quick test and does not produce stable or usable output. For real data, users should use parameters closer to the default values, where possible, and expect higher resource usage and computation time.
 
 ::
 
-  Rscript [path/to/execute_spacia.R] \
-	-i [path/to/input] \
-	-r celltype1 \
-	-s celltype2 \
-	-g gene1 \
-	-t [path/to/gene_cutoffs_prostate1.csv] \
-	-o [path/to/output_celltype2-celltype1_gene1]
+  export dir=[path/to/Spacia]
+  Rscript $dir/scripts/execute_spacia.R \
+	  -x $dir/test/input/rscript_test_data/example_counts.csv -C \
+	  -m $dir/test/input/rscript_test_data/example_meta.csv \
+	  -a $dir/spacia \
+	  -r Tumor_cells -s Fibroblasts -g ACKR3 \
+	  -q 0.76 -u 0.179 \
+	  -l 5000 -w 2500 \
+	  -o $dir/test/rscript_test/Fibroblasts-Tumor_cells_ACKR3
 
 Use ``-h`` or ``--help`` to see detailed descriptions of options and inputs.
