@@ -24,7 +24,7 @@ Graphical abstract
 
    Tao Wang Lab<https://qbrc.swmed.edu/labs/wanglab/aboutpi.php>
    DBAI <https://dbai.biohpc.swmed.edu/>
-   GitHub <hhttps://github.com/yunguan-wang/Spacia/>
+   GitHub <https://github.com/yunguan-wang/Spacia/>
 
 
 Contact Us
